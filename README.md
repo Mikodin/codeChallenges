@@ -3,6 +3,6 @@
 ---
 
 ### 1. (Easy) [Two Sum (LeetCode)](https://leetcode.com/problems/two-sum/)
-  * [Solution - twosum.js](twoSum.js)
+  * [Solution - twoSum.js](twoSum.js)
 
 
