@@ -2,7 +2,7 @@
 ##### Sourced from LeetCode, CodeWars and Crack the coding interview
 ---
 
-### 1. (Easy)[Two Sum](https://leetcode.com/problems/two-sum/)
-..* [twosum.js](twoSum.js)
+### 1. (Easy) [Two Sum](https://leetcode.com/problems/two-sum/)
+  * [twosum.js](twoSum.js)
 
 
