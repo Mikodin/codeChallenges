@@ -1,3 +1,11 @@
+/*
+* Add Two Numbers
+* LeetCode Challenge - https://leetcode.com/problems/add-two-numbers/
+*/
+
+/**
+* Definition for singly-linked list.
+*/
 function ListNode(val) {
   this.val = val;
   this.next = null;
@@ -11,23 +19,28 @@ class AddTwoNumbers {
   }
 
   addTwoLists() {
-    let head = new ListNode(undefined);
-    let answer = new ListNode(undefined);
-    head.next = answer;
+    let head = new ListNode(0);
+    let tail = head;
+    let l1Tail = this.l1;
+    let l2Tail = this.l2; 
+    let carry = 0;
 
-    head.val = this.l1.val + this.l2.val;
-    this.l1 = this.l1.next;
-    this.l2 = this.l2.next;
-
-    while (this.l1.next !== null || this.l2.next !== null) {
-      answer.val = this.l1.val + this.l2.val;
-      this.l1 = this.l1.next;
-      this.l2 = this.l2.next;
-      answer.next = new ListNode(undefined);
+    while (l1Tail !== null || l2Tail !== null) {
+      let x = (l1Tail !== null) ? l1Tail.val : 0;
+      let y = (l2Tail !== null) ? l2Tail.val : 0;
+      let sum = carry + x + y;
+      carry = Math.floor(sum / 10);
+      tail.next = new ListNode(sum % 10);
+      tail = tail.next;
+      if (l1Tail !== null) l1Tail = l1Tail.next;
+      if (l2Tail !== null) l2Tail = l2Tail.next;
     }
-    answer.val = this.l1.val + this.l2.val;
-    console.log(head);
-    return head;
+
+    if (carry > 0) {
+      tail.next = new ListNode(carry);
+    }
+
+    return head.next;
   }
 
   _validateInput() {
