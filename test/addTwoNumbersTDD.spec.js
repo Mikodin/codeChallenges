@@ -36,5 +36,20 @@ describe('AddTwoNumbers', function() {
 
       expect(addTwoNumbers.addTwoLists()).to.deep.equal(answer);
     })
+
+    it ('should return the head of a listNode object with values 0->7, properly carrying the extra value', function() {
+      let list1 = new ListNode(5);
+      list1.next = new ListNode(4);
+      let list2 = new ListNode(5);
+      list2.next = new ListNode(2);
+
+      let answer = new ListNode(0);
+      answer.next = new ListNode(7);
+
+      const addTwoNumbers = new AddTwoNumbers(list1, list2);
+
+      expect(addTwoNumbers.addTwoLists()).to.deep.equal(answer);
+    })
+
   })
 })
