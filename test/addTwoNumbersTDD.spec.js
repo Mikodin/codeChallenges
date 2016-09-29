@@ -15,5 +15,25 @@ describe('AddTwoNumbers', function() {
       expect(addTwoNumbers.l1).to.equal(list1);
       expect(addTwoNumbers.l2).to.equal(list2);
     })
+
+    it ('should throw if l1 and l2 aren\'t provided', function() {
+      expect(() => new AddTwoNumbers(new ListNode(2))).to.throw(Error);
+      expect(() => new AddTwoNumbers()).to.throw(Error);
+    })
+  })
+
+  describe('#addTwoLists', function() {
+    it ('should return a ListNode object', function() {
+      const list1 = new ListNode(2);
+      list1.next = new ListNode(4);
+      const list2 = new ListNode(5);
+      list2.next = new ListNode(2);
+
+      const answer = new ListNode(7);
+      answer.next = new ListNode(6);
+
+      const addTwoNumbers = new AddTwoNumbers(list1, list2);
+      expect(addTwoNumbers.addTwoLists()).to.equal(answer);
+    })
   })
 })
