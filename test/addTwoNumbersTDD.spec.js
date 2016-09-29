@@ -1,5 +1,5 @@
 const expect = require('chai').expect;
-const AddTwoNumbers = require('../addTwoNumbersTDD');
+const AddTwoNumbers = require('../src/addTwoNumbersTDD');
 
 /*
  * DataStructure
