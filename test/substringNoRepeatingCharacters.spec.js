@@ -12,4 +12,12 @@ describe('SubStringNoRepeatingCharacter', function() {
       expect(() => new SSNR()).to.throw(Error);
     })
   })
+
+  describe('#lengthOfLongestSubstring', function() {
+    it ('should return the length the length of the longest substring with no repeating characters', function() {
+      let ssnr = new SSNR('bbbbb');
+      expect(ssnr.lengthOfLongestSubstring()).to.equal(1);
+    })
+
+  })
 })
