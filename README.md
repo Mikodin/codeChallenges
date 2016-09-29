@@ -12,3 +12,6 @@
   * [Solution - addTwoNumbersTDD.js](src/addTwoNumbersTDD.js)
   * [Tests](test/addTwoNumbersTDD.spec.js)
 
+### 3. (Medium) [Longest Substring Without Repeating Characters (LeetCode)](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+  * [Solution - substringNoRepeatingCharacters.js](src/substringNoRepeatingCharacters.js)
+  * [Tests](test/substringNoRepeatingCharacters.spec.js)
