@@ -23,17 +23,18 @@ describe('AddTwoNumbers', function() {
   })
 
   describe('#addTwoLists', function() {
-    it ('should return a ListNode object', function() {
-      const list1 = new ListNode(2);
+    it ('should return the head of a listNode object with values 7->6', function() {
+      let list1 = new ListNode(2);
       list1.next = new ListNode(4);
-      const list2 = new ListNode(5);
+      let list2 = new ListNode(5);
       list2.next = new ListNode(2);
 
-      const answer = new ListNode(7);
+      let answer = new ListNode(7);
       answer.next = new ListNode(6);
 
       const addTwoNumbers = new AddTwoNumbers(list1, list2);
-      expect(addTwoNumbers.addTwoLists()).to.equal(answer);
+
+      expect(addTwoNumbers.addTwoLists()).to.deep.equal(answer);
     })
   })
 })
