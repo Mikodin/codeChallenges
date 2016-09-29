@@ -1,0 +1,25 @@
+{
+  "name": "codeChallenges",
+  "version": "1.0.0",
+  "description": "---",
+  "main": "addTwoNumbers.js",
+  "scripts": {
+    "test": "mocha",
+    "watch": "mocha --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rayne58/codeChallenges.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rayne58/codeChallenges/issues"
+  },
+  "homepage": "https://github.com/Rayne58/codeChallenges#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.0"
+  }
+}

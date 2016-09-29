@@ -5,4 +5,6 @@
 ### 1. (Easy) [Two Sum (LeetCode)](https://leetcode.com/problems/two-sum/)
   * [Solution - twoSum.js](twoSum.js)
 
+### 2. (Medium) [Add Two Numbers (LeetCode)](https://leetcode.com/problems/add-two-numbers/)
+  * [Solution - addTwoNumbers.js](addTwoNumbers.js)
 
