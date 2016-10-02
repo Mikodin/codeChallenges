@@ -19,6 +19,7 @@ describe('DoMathFunsies', function() {
 
 
   describe('#sortExpression', function() {
+    /*
     it ('Should return the numbers according to the alphabetic value of the letter', function() {
       let str = '24z6 1x23 y369 89a 900b';
       let answer = [89, 900, 123, 369, 246];
@@ -26,8 +27,19 @@ describe('DoMathFunsies', function() {
 
       expect(doMath.sortExpression()).to.deep.equal(answer);
     })
+    */
+
+
+    it ('Should return the numbers according to the alphabetic value of the letter and handle the duplicate by arranging it in the order it appeared', function() {
+      let str = '24z6 1z23 y369 89z 900b';
+      let answer = [900, 369, 246, 123, 89];
+      let doMath = new DMF(str);
+
+      expect(doMath.sortExpression()).to.deep.equal(answer);
+    })
   })
 
+  /*
   describe('#calculateExpression', function() {
     it ('Should return the calculate math funsies by applying operator + - * / in that order to the array', function() {
 
@@ -39,5 +51,7 @@ describe('DoMathFunsies', function() {
       expect(doMath.calculateExpression(numbers)).to.equal(answer);
     })
   })
+  */
+
 
 })
