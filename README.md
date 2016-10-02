@@ -18,3 +18,7 @@
 ### 4. (Medium) [Longest Substring Without Repeating Characters (LeetCode)](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
   * [Solution - substringNoRepeatingCharacters.js](src/substringNoRepeatingCharacters.js)
   * [Tests](test/substringNoRepeatingCharacters.spec.js)
+
+### 6. (Medium 6kyu) [Number, Number, wait...LETTER (CodeWars)](https://www.codewars.com/kata/number-number-dot-dot-dot-wait-letter/train/javascript)
+  * [Solution - doMath.js](src/doMath.js)
+  * [Tests](test/doMath.spec.js)

@@ -13,6 +13,7 @@ describe('SubStringNoRepeatingCharacter', function() {
     })
   })
 
+  /*
   describe('#lengthOfLongestSubstring', function() {
     it ('should return the length the length of the longest substring with no repeating characters', function() {
       let ssnr = new SSNR('bbbbbb');
@@ -20,4 +21,5 @@ describe('SubStringNoRepeatingCharacter', function() {
     })
 
   })
+  */
 })
