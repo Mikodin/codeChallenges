@@ -5,6 +5,30 @@ class DoMathFunsies {
   }
 
   sortExpression() {
+    var strings = this.expression.split(' ');
+    var lettersArray = [];
+    var numbersArray = [];
+    var map = new Map();
+    var regex = /[a-z]/gi;
+
+    for (var i = 0; i < strings.length; i++) {
+      var char = strings[i][strings[i].search(regex)];
+      var num = parseInt(strings[i].replace(regex,''));
+      lettersArray.push(char);
+      map.set(char, num);
+    }
+    lettersArray = lettersArray.sort();
+    for (var j = 0; j < lettersArray.length; j++) {
+      numbersArray.push(map.get(lettersArray[j]));
+    }
+
+    console.log(lettersArray);
+    console.log(map);
+    return numbersArray;
+  }
+
+  _parseCharAndInt(str) {
+    var regex = /[a-z]/gi;
   }
 
   _validateInput() {

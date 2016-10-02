@@ -24,7 +24,7 @@ describe('DoMathFunsies', function() {
       let answer = [89, 900, 123, 369, 246];
       let doMath = new DMF(str);
 
-      expect(doMath.sortExpression()).to.equal(answer);
+      expect(doMath.sortExpression()).to.deep.equal(answer);
     })
   })
 
