@@ -17,18 +17,16 @@ class DoMathFunsies {
       lettersArray.push(char);
       map.set(char, num);
     }
+
     lettersArray = lettersArray.sort();
     for (var j = 0; j < lettersArray.length; j++) {
       numbersArray.push(map.get(lettersArray[j]));
     }
-
-    console.log(lettersArray);
-    console.log(map);
     return numbersArray;
   }
 
-  _parseCharAndInt(str) {
-    var regex = /[a-z]/gi;
+  calculateExpression(numbers) {
+
   }
 
   _validateInput() {

@@ -28,4 +28,16 @@ describe('DoMathFunsies', function() {
     })
   })
 
+  describe('#calculateExpression', function() {
+    it ('Should return the calculate math funsies by applying operator + - * / in that order to the array', function() {
+
+      let str = '24z6 1x23 y369 89a 900b';
+      let doMath = new DMF(str);
+      let numbers = doMath.sortExpression();
+      let answer = 1299;
+
+      expect(doMath.calculateExpression(numbers)).to.equal(answer);
+    })
+  })
+
 })
