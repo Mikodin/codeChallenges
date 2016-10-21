@@ -8,17 +8,29 @@
 ### 2. (Medium) Flatten a Dictionary (Pramp)
   * [Solution - flattenDict.js](src/flattenDict.js)
 
-#### From here on out I'll be using Test Driven Development(TDD with Mocha and Chai) to come up with the solutions!
+### 3. (Easy) [House Robber(LeetCode)](https://leetcode.com/problems/house-robber/)
+  * [Solution - houseRobber.js](src/houseRobber.js)
+
+### 4. (Unknown) [Largest Smaller BST Key(Pramp)](https://pramp.com)
+  * [Solution - largestSmallerBSTKey.js](src/largestSmallerBSTKey.js)
+
+### 5. (Unknown) [Implement MergeSort](https://www.coursera.org/specializations/algorithms)
+  * [Solution - mergeSort.js](src/mergeSort.js)
+
+### 6. (Unknown) [Merge two packages]()
+  * [Solution - weightLimit.js](src/weightLimit.js)
+
+#### Using Test Driven Development(TDD with Mocha and Chai)
 ---
 
-### 3. (Medium) [Add Two Numbers (LeetCode)](https://leetcode.com/problems/add-two-numbers/)
+### 7. (Medium) [Add Two Numbers (LeetCode)](https://leetcode.com/problems/add-two-numbers/)
   * [Solution - addTwoNumbersTDD.js](src/addTwoNumbersTDD.js)
   * [Tests](test/addTwoNumbersTDD.spec.js)
 
-### 4. (Medium) [Longest Substring Without Repeating Characters (LeetCode)](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+### 8. (Medium) [Longest Substring Without Repeating Characters (LeetCode)](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
   * [Solution - substringNoRepeatingCharacters.js](src/substringNoRepeatingCharacters.js)
   * [Tests](test/substringNoRepeatingCharacters.spec.js)
 
-### 6. (Medium 6kyu) [Number, Number, wait...LETTER (CodeWars)](https://www.codewars.com/kata/number-number-dot-dot-dot-wait-letter/train/javascript)
+### 9. (Medium 6kyu) [Number, Number, wait...LETTER (CodeWars)](https://www.codewars.com/kata/number-number-dot-dot-dot-wait-letter/train/javascript)
   * [Solution - doMath.js](src/doMath.js)
   * [Tests](test/doMath.spec.js)
