@@ -23,17 +23,20 @@
 ### 7. (Easy) [Remove Duplicates from Sorted Array (in place)]()
   * [Solution - removeDuplicates.js](src/removeDuplicates.js)
 
+### 8. (Easy) [RotateArray(LeetCode](https://leetcode.com/problems/rotate-array/)
+  * [Solution - rotateArray.js](src/rotateArray.js)
+
 #### Using Test Driven Development(TDD with Mocha and Chai)
 ---
 
-### 8. (Medium) [Add Two Numbers (LeetCode)](https://leetcode.com/problems/add-two-numbers/)
+### 9. (Medium) [Add Two Numbers (LeetCode)](https://leetcode.com/problems/add-two-numbers/)
   * [Solution - addTwoNumbersTDD.js](src/addTwoNumbersTDD.js)
   * [Tests](test/addTwoNumbersTDD.spec.js)
 
-### 9. (Medium) [Longest Substring Without Repeating Characters (LeetCode)](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+### 10. (Medium) [Longest Substring Without Repeating Characters (LeetCode)](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
   * [Solution - substringNoRepeatingCharacters.js](src/substringNoRepeatingCharacters.js)
   * [Tests](test/substringNoRepeatingCharacters.spec.js)
 
-### 10. (Medium 6kyu) [Number, Number, wait...LETTER (CodeWars)](https://www.codewars.com/kata/number-number-dot-dot-dot-wait-letter/train/javascript)
+### 11. (Medium 6kyu) [Number, Number, wait...LETTER (CodeWars)](https://www.codewars.com/kata/number-number-dot-dot-dot-wait-letter/train/javascript)
   * [Solution - doMath.js](src/doMath.js)
   * [Tests](test/doMath.spec.js)
