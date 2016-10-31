@@ -26,7 +26,7 @@
 ### 8. (Easy) [RotateArray(LeetCode](https://leetcode.com/problems/rotate-array/)
   * [Solution - rotateArray.js](src/rotateArray.js)
 
-### 8. (Easy) [ValidPalindrome (Entire String)(LeetCode](https://leetcode.com/problems/valid-palindrome/)
+### 9. (Easy) [ValidPalindrome (Entire String)(LeetCode](https://leetcode.com/problems/valid-palindrome/)
   * [Solution - isStringPalindrome.js](src/isStringPalindrome.js)
 
 #### Using Test Driven Development(TDD with Mocha and Chai)
